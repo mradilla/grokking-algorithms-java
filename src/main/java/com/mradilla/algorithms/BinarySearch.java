@@ -1,6 +1,10 @@
 package com.mradilla.algorithms;
 
 public class BinarySearch {
+
+    // The binary_search function takes a sorted array and an item.
+    // If the item is in the array, the function returns its position
+    // or -1 otherwise.
     public static int binarySearch(int[] sortedArray, int item) {
 
         // low and high keep track of which part of the list you’ll search in.
